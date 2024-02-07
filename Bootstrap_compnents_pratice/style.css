@@ -1,0 +1,5 @@
+
+.nav-items .nav-link{
+ color: var(--bs-light) !important;
+ font-weight: 400;
+}
