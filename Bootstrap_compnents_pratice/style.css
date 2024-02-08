@@ -1,5 +1,29 @@
 
 .nav-items .nav-link{
  color: var(--bs-light) !important;
- font-weight: 400;
+ font-weight: 400;
+}
+.menu-nav-link{
+    position: relative;
+    z-index:1;
+}
+
+.menu-nav-link::before{
+    content: "";
+    width:0;
+    height:1px;
+    background-color: var(--bs-dark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease;
+}
+
+.menu-nav-link:hover::before{
+    width:50px;
+}
+
+.Mrunal{
+    width:
 }
